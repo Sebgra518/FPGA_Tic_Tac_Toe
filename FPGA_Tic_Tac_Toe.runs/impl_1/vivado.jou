@@ -1,0 +1,24 @@
+#-----------------------------------------------------------
+# Vivado v2024.1 (64-bit)
+# SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+# IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+# SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+# Start of session at: Mon Dec  2 20:36:15 2024
+# Process ID: 8920
+# Current directory: E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.runs/impl_1
+# Command line: vivado.exe -log TicTacToeTopAN.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source TicTacToeTopAN.tcl -notrace
+# Log file: E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.runs/impl_1/TicTacToeTopAN.vdi
+# Journal file: E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.runs/impl_1\vivado.jou
+# Running On        :DESKTOP-613CM1U
+# Platform          :Windows Server 2016 or Windows 10
+# Operating System  :19045
+# Processor Detail  :AMD Ryzen 7 7800X3D 8-Core Processor           
+# CPU Frequency     :4192 MHz
+# CPU Physical cores:8
+# CPU Logical cores :16
+# Host memory       :33443 MB
+# Swap memory       :4831 MB
+# Total Virtual     :38274 MB
+# Available Virtual :19205 MB
+#-----------------------------------------------------------
+source TicTacToeTopAN.tcl -notrace

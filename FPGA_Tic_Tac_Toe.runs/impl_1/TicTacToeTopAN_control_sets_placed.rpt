@@ -1,0 +1,91 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2024.1 (win64) Build 5076996 Wed May 22 18:37:14 MDT 2024
+| Date         : Mon Dec  2 20:36:34 2024
+| Host         : DESKTOP-613CM1U running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file TicTacToeTopAN_control_sets_placed.rpt
+| Design       : TicTacToeTopAN
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |    13 |
+|    Minimum number of control sets                        |    13 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    63 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |    13 |
+| >= 0 to < 4        |     3 |
+| >= 4 to < 6        |     2 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     0 |
+| >= 10 to < 12      |     3 |
+| >= 12 to < 14      |     1 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     4 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              22 |           10 |
+| No           | No                    | Yes                    |              29 |           17 |
+| No           | Yes                   | No                     |               0 |            0 |
+| Yes          | No                    | No                     |              12 |            5 |
+| Yes          | No                    | Yes                    |              28 |           18 |
+| Yes          | Yes                   | No                     |              62 |           18 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++-------------------------------------------------------+-----------------------------------+----------------------------------------+------------------+----------------+--------------+
+|                      Clock Signal                     |           Enable Signal           |            Set/Reset Signal            | Slice Load Count | Bel Load Count | Bels / Slice |
++-------------------------------------------------------+-----------------------------------+----------------------------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG                                        |                                   | reset_IBUF                             |                1 |              1 |         1.00 |
+|  pong_graph_an_unit/select_square_rgb_reg[11]_i_2_n_0 |                                   |                                        |                1 |              2 |         2.00 |
+|  clk_IBUF_BUFG                                        |                                   |                                        |                2 |              2 |         1.00 |
+|  clk_50m_BUFG                                         | pong_graph_an_unit/selectLoc_next | reset_IBUF                             |                4 |              4 |         1.00 |
+|  clk_50m_BUFG                                         | pong_graph_an_unit/turnStore_next | reset_IBUF                             |                1 |              4 |         4.00 |
+|  clk_50m_BUFG                                         | vsync_unit/v_count_reg0           | reset_IBUF                             |                4 |             10 |         2.50 |
+|  clk_50m_BUFG                                         | vsync_unit/E[0]                   | reset_IBUF                             |                9 |             10 |         1.11 |
+|  clk_IBUF_BUFG                                        | winSong/winMusicSheet/E[0]        | pong_graph_an_unit/SR[0]               |                5 |             10 |         2.00 |
+|  clk_50m_BUFG                                         | vsync_unit/E[0]                   |                                        |                5 |             12 |         2.40 |
+|  pong_graph_an_unit/E[0]                              |                                   |                                        |                7 |             18 |         2.57 |
+|  clk_IBUF_BUFG                                        | winSong/songEnable_reg_n_0        | winSong/winMusicSheet/songEnable_reg_0 |                5 |             20 |         4.00 |
+|  clk_50m_BUFG                                         |                                   | reset_IBUF                             |               16 |             28 |         1.75 |
+|  clk_IBUF_BUFG                                        | winSong/songEnable_reg_n_0        | winSong/winMusicSheet/songEnable_reg   |                8 |             32 |         4.00 |
++-------------------------------------------------------+-----------------------------------+----------------------------------------+------------------+----------------+--------------+
+
+

@@ -1,0 +1,454 @@
+
+*** Running vivado
+    with args -log TicTacToeTopAN.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source TicTacToeTopAN.tcl
+
+
+
+****** Vivado v2024.1 (64-bit)
+  **** SW Build 5076996 on Wed May 22 18:37:14 MDT 2024
+  **** IP Build 5075265 on Wed May 22 21:45:21 MDT 2024
+  **** SharedData Build 5076995 on Wed May 22 18:29:18 MDT 2024
+  **** Start of session at: Mon Dec  2 20:35:34 2024
+    ** Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+    ** Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+
+source TicTacToeTopAN.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/utils_1/imports/synth_1/TicTacToeTopAN.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/utils_1/imports/synth_1/TicTacToeTopAN.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top TicTacToeTopAN -part xc7a100tcsg324-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a100t'
+INFO: [Device 21-403] Loading part xc7a100tcsg324-1
+INFO: [Device 21-9227] Part: xc7a100tcsg324-1 does not have CEAM library.
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 5496
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 1400.559 ; gain = 448.215
+---------------------------------------------------------------------------------
+INFO: [Synth 8-11241] undeclared symbol 'topLeft_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:103]
+INFO: [Synth 8-11241] undeclared symbol 'topLeft_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:107]
+INFO: [Synth 8-11241] undeclared symbol 'topCenter_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:115]
+INFO: [Synth 8-11241] undeclared symbol 'topCenter_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:119]
+INFO: [Synth 8-11241] undeclared symbol 'topRight_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:126]
+INFO: [Synth 8-11241] undeclared symbol 'topRight_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:130]
+INFO: [Synth 8-11241] undeclared symbol 'centerLeft_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:140]
+INFO: [Synth 8-11241] undeclared symbol 'centerLeft_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:144]
+INFO: [Synth 8-11241] undeclared symbol 'centerCenter_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:149]
+INFO: [Synth 8-11241] undeclared symbol 'centerCenter_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:153]
+INFO: [Synth 8-11241] undeclared symbol 'centerRight_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:158]
+INFO: [Synth 8-11241] undeclared symbol 'centerRight_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:162]
+INFO: [Synth 8-11241] undeclared symbol 'bottomLeft_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:173]
+INFO: [Synth 8-11241] undeclared symbol 'bottomLeft_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:177]
+INFO: [Synth 8-11241] undeclared symbol 'bottomCenter_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:182]
+INFO: [Synth 8-11241] undeclared symbol 'bottomCenter_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:186]
+INFO: [Synth 8-11241] undeclared symbol 'bottomRight_x_line1', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:191]
+INFO: [Synth 8-11241] undeclared symbol 'bottomRight_x_line2', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:195]
+INFO: [Synth 8-11241] undeclared symbol 'topLeft_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:207]
+INFO: [Synth 8-11241] undeclared symbol 'topCenter_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:209]
+INFO: [Synth 8-11241] undeclared symbol 'topRight_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:211]
+INFO: [Synth 8-11241] undeclared symbol 'centerLeft_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:215]
+INFO: [Synth 8-11241] undeclared symbol 'centerCenter_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:217]
+INFO: [Synth 8-11241] undeclared symbol 'centerRight_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:219]
+INFO: [Synth 8-11241] undeclared symbol 'bottomLeft_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:222]
+INFO: [Synth 8-11241] undeclared symbol 'bottomCenter_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:224]
+INFO: [Synth 8-11241] undeclared symbol 'bottomRight_o', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:226]
+INFO: [Synth 8-11241] undeclared symbol 'hashOn', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:305]
+INFO: [Synth 8-11241] undeclared symbol 'defult_square_rgb', assumed default net type 'wire' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:307]
+INFO: [Synth 8-6157] synthesizing module 'TicTacToeTopAN' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeTopAN.v:2]
+INFO: [Synth 8-6157] synthesizing module 'clk_50m_generator' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/clk_50m_generator.v:2]
+INFO: [Synth 8-6155] done synthesizing module 'clk_50m_generator' (0#1) [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/clk_50m_generator.v:2]
+INFO: [Synth 8-6157] synthesizing module 'vga_sync' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/vga_sync.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'vga_sync' (0#1) [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/vga_sync.v:3]
+INFO: [Synth 8-6157] synthesizing module 'TicTacToeGraphAnUnit' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:2]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:343]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:350]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:357]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:364]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:374]
+WARNING: [Synth 8-6090] variable 'player_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:375]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:384]
+WARNING: [Synth 8-6090] variable 'player_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:385]
+WARNING: [Synth 8-6090] variable 'buttonEnable_next' is written by both blocking and non-blocking assignments, entire logic could be removed [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'TicTacToeGraphAnUnit' (0#1) [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:2]
+INFO: [Synth 8-6157] synthesizing module 'WinSongPlayer' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinSongPlayer.v:1]
+INFO: [Synth 8-6157] synthesizing module 'WinMusicSheet' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinMusicSheet.v:1]
+WARNING: [Synth 8-567] referenced signal 'soundSelect' should be on the sensitivity list [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinMusicSheet.v:15]
+INFO: [Synth 8-6155] done synthesizing module 'WinMusicSheet' (0#1) [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinMusicSheet.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'WinSongPlayer' (0#1) [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinSongPlayer.v:1]
+INFO: [Synth 8-6155] done synthesizing module 'TicTacToeTopAN' (0#1) [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeTopAN.v:2]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1520.910 ; gain = 568.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1520.910 ; gain = 568.566
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1520.910 ; gain = 568.566
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.012 . Memory (MB): peak = 1520.910 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/constrs_1/new/const.xdc]
+WARNING: [Vivado 12-584] No ports matched 'reset_clk'. [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/constrs_1/new/const.xdc:14]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/constrs_1/new/const.xdc:14]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/constrs_1/new/const.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/constrs_1/new/const.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TicTacToeTopAN_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TicTacToeTopAN_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1619.734 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1619.734 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a100tcsg324-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-327] inferring latch for variable 'select_square_rgb_reg' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/TicTacToeGraphAnUnit.v:331]
+WARNING: [Synth 8-327] inferring latch for variable 'note_reg' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinMusicSheet.v:18]
+WARNING: [Synth 8-327] inferring latch for variable 'duration_reg' [E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.srcs/sources_1/new/WinMusicSheet.v:18]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:10 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 20    
+	   3 Input   32 Bit       Adders := 9     
+	   2 Input   10 Bit       Adders := 3     
+	   2 Input    4 Bit       Adders := 5     
++---Registers : 
+	               12 Bit    Registers := 1     
+	               10 Bit    Registers := 3     
+	                9 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 9     
++---Muxes : 
+	   2 Input   17 Bit        Muxes := 1     
+	   8 Input   17 Bit        Muxes := 1     
+	   2 Input   16 Bit        Muxes := 1     
+	   8 Input   16 Bit        Muxes := 1     
+	   2 Input   12 Bit        Muxes := 38    
+	   4 Input   12 Bit        Muxes := 1     
+	   2 Input   10 Bit        Muxes := 2     
+	   2 Input    9 Bit        Muxes := 8     
+	   5 Input    9 Bit        Muxes := 2     
+	   2 Input    4 Bit        Muxes := 3     
+	   7 Input    2 Bit        Muxes := 1     
+	   2 Input    2 Bit        Muxes := 12    
+	   4 Input    2 Bit        Muxes := 1     
+	   8 Input    2 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 46    
+	   5 Input    1 Bit        Muxes := 2     
+	   4 Input    1 Bit        Muxes := 4     
+	   6 Input    1 Bit        Muxes := 1     
+	   8 Input    1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 240 (col length:80)
+BRAMs: 270 (col length: RAMB18 80 RAMB36 40)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+DSP Report: Generating DSP topRight_o2, operation Mode is: A*B.
+DSP Report: operator topRight_o2 is absorbed into DSP topRight_o2.
+DSP Report: operator topRight_o2 is absorbed into DSP topRight_o2.
+DSP Report: Generating DSP bottomLeft_o2, operation Mode is: A*B.
+DSP Report: operator bottomLeft_o2 is absorbed into DSP bottomLeft_o2.
+DSP Report: operator bottomLeft_o2 is absorbed into DSP bottomLeft_o2.
+DSP Report: Generating DSP bottomLeft_o2, operation Mode is: A*B.
+DSP Report: operator bottomLeft_o2 is absorbed into DSP bottomLeft_o2.
+DSP Report: operator bottomLeft_o2 is absorbed into DSP bottomLeft_o2.
+DSP Report: Generating DSP bottomLeft_o2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator bottomLeft_o2 is absorbed into DSP bottomLeft_o2.
+DSP Report: operator bottomLeft_o2 is absorbed into DSP bottomLeft_o2.
+DSP Report: Generating DSP topRight_o2, operation Mode is: A*B.
+DSP Report: operator topRight_o2 is absorbed into DSP topRight_o2.
+DSP Report: operator topRight_o2 is absorbed into DSP topRight_o2.
+DSP Report: Generating DSP topRight_o2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator topRight_o2 is absorbed into DSP topRight_o2.
+DSP Report: operator topRight_o2 is absorbed into DSP topRight_o2.
+DSP Report: Generating DSP topCenter_o2, operation Mode is: A*B.
+DSP Report: operator topCenter_o2 is absorbed into DSP topCenter_o2.
+DSP Report: operator topCenter_o2 is absorbed into DSP topCenter_o2.
+DSP Report: Generating DSP topCenter_o2, operation Mode is: A*B.
+DSP Report: operator topCenter_o2 is absorbed into DSP topCenter_o2.
+DSP Report: operator topCenter_o2 is absorbed into DSP topCenter_o2.
+DSP Report: Generating DSP topCenter_o2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator topCenter_o2 is absorbed into DSP topCenter_o2.
+DSP Report: operator topCenter_o2 is absorbed into DSP topCenter_o2.
+DSP Report: Generating DSP topLeft_o2, operation Mode is: A*B.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: Generating DSP topLeft_o2, operation Mode is: A*B.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: Generating DSP topLeft_o2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: Generating DSP centerLeft_o2, operation Mode is: A*B.
+DSP Report: operator centerLeft_o2 is absorbed into DSP centerLeft_o2.
+DSP Report: operator centerLeft_o2 is absorbed into DSP centerLeft_o2.
+DSP Report: Generating DSP centerLeft_o2, operation Mode is: A*B.
+DSP Report: operator centerLeft_o2 is absorbed into DSP centerLeft_o2.
+DSP Report: operator centerLeft_o2 is absorbed into DSP centerLeft_o2.
+DSP Report: Generating DSP centerLeft_o2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator centerLeft_o2 is absorbed into DSP centerLeft_o2.
+DSP Report: operator centerLeft_o2 is absorbed into DSP centerLeft_o2.
+DSP Report: Generating DSP topLeft_o2, operation Mode is: A*B.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: Generating DSP topLeft_o2, operation Mode is: A*B.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: Generating DSP topLeft_o2, operation Mode is: (PCIN>>17)+A*B.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: operator topLeft_o2 is absorbed into DSP topLeft_o2.
+DSP Report: Generating DSP winSong/time12, operation Mode is: (A:0xf5e100)*B.
+DSP Report: operator winSong/time12 is absorbed into DSP winSong/time12.
+DSP Report: operator winSong/time12 is absorbed into DSP winSong/time12.
+WARNING: [Synth 8-3917] design TicTacToeTopAN has port Aud_sd driven by constant 1
+WARNING: [Synth 8-3332] Sequential element (select_square_rgb_reg[10]) is unused and will be removed from module TicTacToeGraphAnUnit.
+WARNING: [Synth 8-3332] Sequential element (winSong/winMusicSheet/note_reg[19]) is unused and will be removed from module TicTacToeTopAN.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:15 ; elapsed = 00:00:15 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+ Sort Area is  bottomLeft_o2_3 : 0 0 : 2701 4456 : Used 1 time 0
+ Sort Area is  bottomLeft_o2_3 : 0 1 : 1755 4456 : Used 1 time 0
+ Sort Area is  centerLeft_o2_b : 0 0 : 2701 4456 : Used 1 time 0
+ Sort Area is  centerLeft_o2_b : 0 1 : 1755 4456 : Used 1 time 0
+ Sort Area is  topCenter_o2_7 : 0 0 : 2701 4456 : Used 1 time 0
+ Sort Area is  topCenter_o2_7 : 0 1 : 1755 4456 : Used 1 time 0
+ Sort Area is  topLeft_o2_9 : 0 0 : 2701 4456 : Used 1 time 0
+ Sort Area is  topLeft_o2_9 : 0 1 : 1755 4456 : Used 1 time 0
+ Sort Area is  topLeft_o2_d : 0 0 : 2701 4456 : Used 1 time 0
+ Sort Area is  topLeft_o2_d : 0 1 : 1755 4456 : Used 1 time 0
+ Sort Area is  topRight_o2_0 : 0 0 : 2701 4456 : Used 1 time 0
+ Sort Area is  topRight_o2_0 : 0 1 : 1755 4456 : Used 1 time 0
+ Sort Area is  bottomLeft_o2_4 : 0 0 : 1755 1755 : Used 1 time 0
+ Sort Area is  centerLeft_o2_c : 0 0 : 1755 1755 : Used 1 time 0
+ Sort Area is  topCenter_o2_8 : 0 0 : 1755 1755 : Used 1 time 0
+ Sort Area is  topLeft_o2_a : 0 0 : 1755 1755 : Used 1 time 0
+ Sort Area is  topLeft_o2_e : 0 0 : 1755 1755 : Used 1 time 0
+ Sort Area is  topRight_o2_6 : 0 0 : 1755 1755 : Used 1 time 0
+ Sort Area is  winSong/time12_f : 0 0 : 502 502 : Used 1 time 0
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+
+DSP: Preliminary Mapping Report (see note below. The ' indicates corresponding REG is set)
++---------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name          | DSP Mapping    | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|TicTacToeGraphAnUnit | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B            | 18     | 18     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | (PCIN>>17)+A*B | 15     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|WinSongPlayer        | (A:0xf5e100)*B | 25     | 6      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++---------------------+----------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+Note: The table above is a preliminary report that shows the DSPs inferred at the current stage of the synthesis flow. Some DSP may be reimplemented as non DSP primitives later in the synthesis flow. Multiple instantiated DSPs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP, Shift Register and Retiming Reporting
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:20 ; elapsed = 00:00:20 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:23 ; elapsed = 00:00:23 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+DSP Final Report (the ' indicates corresponding REG is set)
++---------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|Module Name          | DSP Mapping  | A Size | B Size | C Size | D Size | P Size | AREG | BREG | CREG | DREG | ADREG | MREG | PREG | 
++---------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+|TicTacToeGraphAnUnit | A*B          | 15     | 18     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 15     | 18     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | PCIN>>17+A*B | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | PCIN>>17+A*B | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 15     | 18     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | PCIN>>17+A*B | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 15     | 18     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | PCIN>>17+A*B | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 15     | 18     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | PCIN>>17+A*B | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 15     | 18     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | A*B          | 17     | 17     | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|TicTacToeGraphAnUnit | PCIN>>17+A*B | 30     | 15     | -      | -      | 15     | 0    | 0    | -    | -    | -     | 0    | 0    | 
+|WinSongPlayer        | A*B          | 24     | 2      | -      | -      | 48     | 0    | 0    | -    | -    | -     | 0    | 0    | 
++---------------------+--------------+--------+--------+--------+--------+--------+------+------+------+------+-------+------+------+
+
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+--------+------+
+|      |Cell    |Count |
++------+--------+------+
+|1     |BUFG    |     2|
+|2     |CARRY4  |   132|
+|3     |DSP48E1 |    19|
+|4     |LUT1    |    13|
+|5     |LUT2    |   244|
+|6     |LUT3    |   170|
+|7     |LUT4    |   261|
+|8     |LUT5    |   145|
+|9     |LUT6    |   200|
+|10    |FDCE    |    54|
+|11    |FDPE    |     3|
+|12    |FDRE    |    69|
+|13    |LD      |    20|
+|14    |IBUF    |     8|
+|15    |OBUF    |    16|
++------+--------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:23 ; elapsed = 00:00:24 . Memory (MB): peak = 1619.734 ; gain = 667.391
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 7 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:18 ; elapsed = 00:00:22 . Memory (MB): peak = 1619.734 ; gain = 568.566
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:24 . Memory (MB): peak = 1619.734 ; gain = 667.391
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.016 . Memory (MB): peak = 1619.734 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 171 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1619.734 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 20 instances were transformed.
+  LD => LDCE: 20 instances
+
+Synth Design complete | Checksum: da1b132f
+INFO: [Common 17-83] Releasing license: Synthesis
+63 Infos, 18 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:27 . Memory (MB): peak = 1619.734 ; gain = 1083.820
+INFO: [runtcl-6] Synthesis results are not added to the cache due to CRITICAL_WARNING
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1619.734 ; gain = 0.000
+INFO: [Common 17-1381] The checkpoint 'E:/Github/FPGA_Tic_Tac_Toe/FPGA_Tic_Tac_Toe.runs/synth_1/TicTacToeTopAN.dcp' has been generated.
+INFO: [Vivado 12-24828] Executing command : report_utilization -file TicTacToeTopAN_utilization_synth.rpt -pb TicTacToeTopAN_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Dec  2 20:36:08 2024...
